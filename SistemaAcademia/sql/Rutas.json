@@ -1,0 +1,4 @@
+﻿{
+  "db": "sql/dbsettings.json",
+  "Queries_Joins": "sql/Queries_Joins.json"
+}

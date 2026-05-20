@@ -1,0 +1,20 @@
+# Carpetas de compilacion de .NET
+bin/
+obj/
+
+# Archivos de usuario de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Resultados de compilacion
+*.dll
+*.exe
+*.pdb
+
+# Configuracion local con credenciales (no subir)
+dbsettings.json
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store

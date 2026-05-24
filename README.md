@@ -6,37 +6,37 @@ Aplicación de escritorio para administrar la operación de una institución edu
 
 ### Menú principal
 
-![Menú principal](screenshots/menu.png)
+![Menú principal](screenshots/Menu.png)
 
 Pantalla de inicio con acceso a los cuatro módulos del sistema: Notas, Reportes, Inscripción y Mantenimiento.
 
 ### Inscripciones
 
-![Inscripciones](screenshots/inscripciones.png)
+![Inscripciones](screenshots/Inscripciones.png)
 
 Inscripción de estudiantes a cursos, con la grilla de secciones disponibles y la vista de horario semanal.
 
 ### Notas
 
-![Notas](screenshots/notas.png)
+![Notas](screenshots/Notas.png)
 
 Registro de calificaciones por materia y sección, con varias evaluaciones por estudiante.
 
 ### Planilla de notas
 
-![Planilla de notas](screenshots/planilla-notas.png)
+![Planilla de notas](screenshots/Planilla%20de%20Notas.png)
 
 Resumen académico del estudiante: evaluaciones realizadas, puntos acumulados, porcentaje evaluado y estado.
 
 ### Mantenimiento de cursos
 
-![Mantenimiento de cursos](screenshots/mantenimiento-curso.png)
+![Mantenimiento de cursos](screenshots/Mantenimiento%20Curso.png)
 
 Administración de cursos: materia, sección, profesor, período, horario, aula y cupo.
 
 ### Mantenimiento de personas
 
-![Mantenimiento de personas](screenshots/mantenimiento-persona.png)
+![Mantenimiento de personas](screenshots/Mantenimiento%20Persona.png)
 
 Gestión de estudiantes y profesores, con búsqueda y filtros.
 

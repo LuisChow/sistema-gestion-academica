@@ -2,6 +2,44 @@
 
 Aplicación de escritorio para administrar la operación de una institución educativa: registro de personas (estudiantes y profesores), cursos, materias, secciones, inscripciones y notas. Desarrollada en C# con Windows Forms y respaldada por una base de datos PostgreSQL.
 
+## Capturas de pantalla
+
+### Menú principal
+
+![Menú principal](screenshots/menu.png)
+
+Pantalla de inicio con acceso a los cuatro módulos del sistema: Notas, Reportes, Inscripción y Mantenimiento.
+
+### Inscripciones
+
+![Inscripciones](screenshots/inscripciones.png)
+
+Inscripción de estudiantes a cursos, con la grilla de secciones disponibles y la vista de horario semanal.
+
+### Notas
+
+![Notas](screenshots/notas.png)
+
+Registro de calificaciones por materia y sección, con varias evaluaciones por estudiante.
+
+### Planilla de notas
+
+![Planilla de notas](screenshots/planilla-notas.png)
+
+Resumen académico del estudiante: evaluaciones realizadas, puntos acumulados, porcentaje evaluado y estado.
+
+### Mantenimiento de cursos
+
+![Mantenimiento de cursos](screenshots/mantenimiento-curso.png)
+
+Administración de cursos: materia, sección, profesor, período, horario, aula y cupo.
+
+### Mantenimiento de personas
+
+![Mantenimiento de personas](screenshots/mantenimiento-persona.png)
+
+Gestión de estudiantes y profesores, con búsqueda y filtros.
+
 ## Características
 
 - **Gestión de personas** — registro, edición, mantenimiento y filtrado de estudiantes y profesores.
@@ -36,17 +74,25 @@ Las consultas y las rutas de configuración viven en la carpeta `sql/` (`dbsetti
 
 ## Instalación y ejecución
 
-1. Clona el repositorio.
+1. Clona el repositorio:
+
+```
+git clone https://github.com/LuisChow/sistema-gestion-academica.git
+cd sistema-gestion-academica
+```
+
 2. Crea una base de datos PostgreSQL para la aplicación.
+
 3. Configura la cadena de conexión en `SistemaAcademia/sql/dbsettings.json`:
 
-   ```json
-   {
-     "connectionString": "Host=localhost;Port=5432;Database=Academia;Username=tu_usuario;Password=tu_password"
-   }
-   ```
+```
+{
+  "connectionString": "Host=localhost;Port=5432;Database=Academia;Username=tu_usuario;Password=tu_password"
+}
+```
 
 4. Restaura la base de datos desde el respaldo incluido en `BDBackup/`.
+
 5. Abre `SistemaAcademia.sln` en Visual Studio y ejecuta el proyecto (o usa `dotnet run` desde la carpeta `SistemaAcademia/`).
 
 ## Estructura del proyecto
@@ -55,6 +101,7 @@ Las consultas y las rutas de configuración viven en la carpeta `sql/` (`dbsetti
 .
 ├── SistemaAcademia.sln          # Solución de Visual Studio
 ├── BDBackup/                    # Respaldo de la base de datos
+├── screenshots/                 # Capturas de pantalla de la aplicación
 └── SistemaAcademia/
     ├── Program.cs               # Punto de entrada
     ├── Components/              # Capa de acceso a datos
